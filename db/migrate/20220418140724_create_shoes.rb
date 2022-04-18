@@ -6,7 +6,6 @@ class CreateShoes < ActiveRecord::Migration[6.1]
       t.text :description
       t.integer :price
       t.boolean :bought?
-      t.boolean :in_cart?
     end
   end
 end
