@@ -23,6 +23,7 @@ class ApplicationController < Sinatra::Base
       shirt_id: params[:shirt_id],
       shoe_id: params[:shoe_id],
     )
+    
     Purchase.all.to_json
   end
 

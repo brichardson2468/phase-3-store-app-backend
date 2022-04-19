@@ -5,7 +5,7 @@ class CreatePants < ActiveRecord::Migration[6.1]
       t.string :image
       t.text :description
       t.integer :price
-      t.boolean :bought?
+      t.integer :bought
     end
   end
 end
