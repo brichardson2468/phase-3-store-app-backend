@@ -124,115 +124,115 @@ Pant.create(
 puts "🌱 SEEDING SHIRTS..."
 
 Shirt.create(
-    name: "Shirt", 
-    image: "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-    description: "Cool shirt",
-    price: 2,
+    name: "REI Co-op", 
+    image: "https://www.rei.com/media/c9140c00-d23c-46fc-bc2b-1b984b2cf2f2?size=2000",
+    description: "Sahara Shade Hoodie",
+    price: 50,
     bought?: false,
 )
 Shirt.create(
-    name: "Shirt", 
-    image: "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-    description: "Cool shirt",
-    price: 2,
+    name: "Patagonia", 
+    image: "https://www.rei.com/media/c4eb1d1d-5930-4436-aa2b-5281611775a7?size=2000",
+    description: "Capilene Cool Daily Hoodie",
+    price: 55,
     bought?: false,
 )
 Shirt.create(
-    name: "Shirt", 
-    image: "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-    description: "Cool shirt",
-    price: 2,
+    name: "Cotopaxi", 
+    image: "https://www.rei.com/media/5a401ca9-4268-4d73-b7de-81c2602930d6?size=2000",
+    description: "Sombra Sun Hoodie",
+    price: 70,
     bought?: false,
 )
 Shirt.create(
-    name: "Shirt", 
-    image: "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-    description: "Cool shirt",
-    price: 2,
+    name: "Outdoor Research", 
+    image: "https://www.rei.com/media/17cda256-5177-46bd-9eb0-c108cbd8084b?size=2000",
+    description: "Echo T-Shirt",
+    price: 42,
     bought?: false,
 )
 Shirt.create(
-    name: "Shirt", 
-    image: "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-    description: "Cool shirt",
-    price: 2,
+    name: "The North Face", 
+    image: "https://www.rei.com/media/55266ece-f3b8-44f7-8083-8e3a20c1ad25?size=2000",
+    description: "Class V Long-Sleeve Water Top",
+    price: 50,
     bought?: false,
 )
 Shirt.create(
-    name: "Shirt", 
-    image: "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-    description: "Cool shirt",
-    price: 2,
+    name: "Columbia", 
+    image: "https://www.rei.com/media/ea022cae-11ed-4e34-a278-319c172b567c?size=2000",
+    description: "Alpine Chill Zero Long-Sleeve Shirt",
+    price: 45,
     bought?: false,
 )
 Shirt.create(
-    name: "Shirt", 
-    image: "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-    description: "Cool shirt",
-    price: 2,
+    name: "Icebreaker", 
+    image: "https://www.rei.com/media/2fe621d0-ad22-41b6-b344-cdf11c8ba4df?size=2000",
+    description: "Granary Long-Sleeve Pocket T-Shirt",
+    price: 95,
     bought?: false,
 )
 Shirt.create(
-    name: "Shirt", 
-    image: "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-    description: "Cool shirt",
-    price: 2,
+    name: "Columbia", 
+    image: "https://www.rei.com/media/1ee5776b-980c-4ecb-b39a-e72b36021da8?size=2000",
+    description: "Sun Trek Hoodie",
+    price: 45,
     bought?: false,
 )
 Shirt.create(
-    name: "Shirt", 
-    image: "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-    description: "Cool shirt",
-    price: 2,
+    name: "ExOfficio", 
+    image: "https://www.rei.com/media/2c6e33ef-5a14-4f8c-9bb4-53b045688318?size=2000",
+    description: "BugsAway Tarka Shirt",
+    price: 72,
     bought?: false,
 )
 Shirt.create(
-    name: "Shirt", 
-    image: "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-    description: "Cool shirt",
-    price: 2,
+    name: "Vuori", 
+    image: "https://www.rei.com/media/cfd2aba3-1f0c-4702-83aa-ad2876d9fcbd?size=2000",
+    description: "Linear T-Shirt",
+    price: 54,
     bought?: false,
 )
 Shirt.create(
-    name: "Shirt", 
-    image: "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-    description: "Cool shirt",
-    price: 2,
+    name: "Ortovox", 
+    image: "https://www.rei.com/media/58f0a2c9-5d90-46bc-b5bc-115c5276acb2?size=2000",
+    description: "120 Tec Mountain T-Shirt",
+    price: 90,
     bought?: false,
 )
 Shirt.create(
-    name: "Shirt", 
-    image: "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-    description: "Cool shirt",
-    price: 2,
+    name: "Artilect", 
+    image: "https://www.rei.com/media/b355cfc7-85ad-47db-a024-661082bfb06d?size=2000",
+    description: "Exposure T-Shirt",
+    price: 110,
     bought?: false,
 )
 Shirt.create(
-    name: "Shirt", 
-    image: "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-    description: "Cool shirt",
-    price: 2,
+    name: "ArcTeryx", 
+    image: "https://www.rei.com/media/bd666cef-3027-4af9-bf40-59b22e4138ce?size=2000",
+    description: "Cormac Crew Long-Sleeve Shirt",
+    price: 80,
     bought?: false,
 )
 Shirt.create(
-    name: "Shirt", 
-    image: "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-    description: "Cool shirt",
-    price: 2,
+    name: "Patagonia", 
+    image: "https://www.rei.com/media/2683eaa6-5160-410d-8710-eb1a18d37eaa?size=2000",
+    description: "Capilene Cool Trail Shirt",
+    price: 39,
     bought?: false,
 )
 Shirt.create(
-    name: "Shirt", 
-    image: "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-    description: "Cool shirt",
-    price: 2,
+    name: "Royal Robbins", 
+    image: "https://www.rei.com/media/19a03dd2-e3a8-487c-bf69-2a02f2db78f2?size=2000",
+    description: "VentureLayer 200 Long-Sleeve Shirt",
+    price: 57,
     bought?: false,
 )
 Shirt.create(
-    name: "Shirt", 
-    image: "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-    description: "Cool shirt",
-    price: 2,
+    name: "Outdoor Research", 
+    image: "https://www.rei.com/media/5bf1cd39-bbe1-4e74-8a87-ce268e65e2a6?size=2000",
+    description: "Argon T-Shirt",
+    price: 37,
     bought?: false,
 )
 
