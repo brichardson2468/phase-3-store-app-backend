@@ -13,13 +13,13 @@ class ApplicationController < Sinatra::Base
     Shoe.all.to_json
   end
 
-
-
-#   get "/pants/:id" do
-#     pants.find(params[:id]).to_json(include: :purchases)
-#   end
-#   post  "/purchases" do
-#     Purchases.create(params).to_json
-#   end
+  post "/purchases" do
+    purchases = Purchase.create(
+      pant_id: params[:pant_id],
+      shirt_id: params[:shirt_id],
+      shoe_id: params[:shoe_id],
+    )
+    purchases.to_json
+  end
 
 end
