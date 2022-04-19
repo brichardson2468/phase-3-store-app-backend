@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2022_04_18_141144) do
     t.string "image"
     t.text "description"
     t.integer "price"
-    t.boolean "bought?"
+    t.integer "bought"
   end
 
   create_table "purchases", force: :cascade do |t|
@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 2022_04_18_141144) do
     t.string "image"
     t.text "description"
     t.integer "price"
-    t.boolean "bought?"
+    t.integer "bought"
   end
 
   create_table "shoes", force: :cascade do |t|
@@ -39,7 +39,7 @@ ActiveRecord::Schema.define(version: 2022_04_18_141144) do
     t.string "image"
     t.text "description"
     t.integer "price"
-    t.boolean "bought?"
+    t.integer "bought"
   end
 
 end

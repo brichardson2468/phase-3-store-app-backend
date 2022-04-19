@@ -23,7 +23,9 @@ class ApplicationController < Sinatra::Base
       shirt_id: params[:shirt_id],
       shoe_id: params[:shoe_id],
     )
-    
+    a = Shoe.find_by(id: params[:shoe_id]).bought
+    a = a + 1
+    Shoe.find_by(id: params[:shoe_id]).update(bought: a)
     Purchase.all.to_json
   end
 
