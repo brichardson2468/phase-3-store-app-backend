@@ -7,115 +7,115 @@ Shoe.destroy_all
 puts "🌱 SEEDING PANTS..."
 
 Pant.create(
-    name: "Jeans", 
-    image: "https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg",
-    description: "Cool jeans",
-    price: 5,
+    name: "prAna", 
+    image: "https://www.rei.com/media/829e7427-054b-4c89-9b6c-b89637c89aae?size=2000",
+    description: "Stretch Zion Pants",
+    price: 89,
     bought?: false,
 )
 Pant.create(
-    name: "Jeans", 
-    image: "https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg",
-    description: "Cool jeans",
-    price: 5,
+    name: "prAna", 
+    image: "https://www.rei.com/media/ae8b7ab0-57e9-48dc-8efd-d2b60618006a?size=2000",
+    description: "Vaha Straight Pants",
+    price: 85,
     bought?: false,
 )
 Pant.create(
-    name: "Jeans", 
-    image: "https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg",
-    description: "Cool jeans",
-    price: 5,
+    name: "Outdoor Research", 
+    image: "https://www.rei.com/media/fdd98d87-842a-4562-ba89-3253f007d3de?size=2000",
+    description: "Zendo Jogger Pants",
+    price: 79,
     bought?: false,
 )
 Pant.create(
-    name: "Jeans", 
-    image: "https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg",
-    description: "Cool jeans",
-    price: 5,
+    name: "prAna", 
+    image: "https://www.rei.com/media/0944fd8b-2d6f-4d95-b8bf-8df72d3122ae?size=2000",
+    description: "Vaha Shorts",
+    price: 65,
     bought?: false,
 )
 Pant.create(
-    name: "Jeans", 
-    image: "https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg",
-    description: "Cool jeans",
-    price: 5,
+    name: "prAna", 
+    image: "https://www.rei.com/media/d75a7901-244b-4fd1-86c1-3dd8b2423d26?size=2000",
+    description: "Stretch Zion Slim Pants II",
+    price: 95,
     bought?: false,
 )
 Pant.create(
-    name: "Jeans", 
-    image: "https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg",
-    description: "Cool jeans",
-    price: 5,
+    name: "prAna", 
+    image: "https://www.rei.com/media/ea5ed953-1542-459c-aa2c-a55ac91c05a7?size=2000",
+    description: "Vaha Pants - 32in-Inseam",
+    price: 79,
     bought?: false,
 )
 Pant.create(
-    name: "Jeans", 
-    image: "https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg",
-    description: "Cool jeans",
-    price: 5,
+    name: "prAna", 
+    image: "https://www.rei.com/media/508275da-c2fb-4f3c-8a7c-45c6a095bd53?size=2000",
+    description: "Stretch Zion Straight Pants",
+    price: 67,
     bought?: false,
 )
 Pant.create(
-    name: "Jeans", 
-    image: "https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg",
-    description: "Cool jeans",
-    price: 5,
+    name: "Outdoor Research", 
+    image: "https://www.rei.com/media/6d47fc6a-9a30-44f5-9c6c-e29398ddccb0?size=2000",
+    description: "Zendo 10in Shorts",
+    price: 59,
     bought?: false,
 )
 Pant.create(
-    name: "Jeans", 
-    image: "https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg",
-    description: "Cool jeans",
-    price: 5,
+    name: "Black Diamond", 
+    image: "https://www.rei.com/media/259b74a1-acd1-41ec-ad78-d2ba47e22695?size=2000",
+    description: "Notion Pants",
+    price: 79,
     bought?: false,
 )
 Pant.create(
-    name: "Jeans", 
-    image: "https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg",
-    description: "Cool jeans",
-    price: 5,
+    name: "Outdoor Research", 
+    image: "https://www.rei.com/media/4e528893-ca73-42ab-a218-0e9de0538106?size=2000",
+    description: "V Pants",
+    price: 67,
     bought?: false,
 )
 Pant.create(
-    name: "Jeans", 
-    image: "https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg",
-    description: "Cool jeans",
-    price: 5,
+    name: "Rab", 
+    image: "https://www.rei.com/media/4a0e4eee-e902-44a1-9543-0cb40d602335?size=2000",
+    description: "Venant Pants",
+    price: 95,
     bought?: false,
 )
 Pant.create(
-    name: "Jeans", 
-    image: "https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg",
-    description: "Cool jeans",
-    price: 5,
+    name: "ArcTeryx", 
+    image: "https://www.rei.com/media/5cdf4fcf-b93d-48e0-9a06-60b52ba7f137?size=2000",
+    description: "Nuclei Pants",
+    price: 179,
     bought?: false,
 )
 Pant.create(
-    name: "Jeans", 
-    image: "https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg",
-    description: "Cool jeans",
-    price: 5,
+    name: "Black Diamond", 
+    image: "https://www.rei.com/media/d2af23db-56b5-4d73-8a32-4479b68c30d6?size=2000",
+    description: "Crag Denim Pants",
+    price: 89,
     bought?: false,
 )
 Pant.create(
-    name: "Jeans", 
-    image: "https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg",
-    description: "Cool jeans",
-    price: 5,
+    name: "prAna", 
+    image: "https://www.rei.com/media/0068935a-83f2-466d-9aeb-07a4775ae5f3?size=2000",
+    description: "Stretch Zion Pants II",
+    price: 95,
     bought?: false,
 )
 Pant.create(
-    name: "Jeans", 
-    image: "https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg",
-    description: "Cool jeans",
-    price: 5,
+    name: "prAna", 
+    image: "https://www.rei.com/media/f8aa7797-ea99-4ecd-89b9-b6f21fa5667c?size=2000",
+    description: "Stretch Zion Pants",
+    price: 67,
     bought?: false,
 )
 Pant.create(
-    name: "Jeans", 
-    image: "https://media.gq-magazine.co.uk/photos/604a389378d908f40e6180ae/master/w_1920,h_1280,c_limit/Jeans_0006_Polo%20raplh%20lauren.jpg",
-    description: "Cool jeans",
-    price: 5,
+    name: "prAna", 
+    image: "https://www.rei.com/media/423332c4-8130-4ace-b899-4ae1074d75ff?size=2000",
+    description: "Stretch Zion Stretch Pants",
+    price: 44,
     bought?: false,
 )
 
