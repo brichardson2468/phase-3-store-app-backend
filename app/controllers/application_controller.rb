@@ -14,8 +14,23 @@ class ApplicationController < Sinatra::Base
   end
 
   get "/purchases" do 
-    Purchase.all.to_json
+    Purchase.all.to_json(include: [:shirt, :pant, :shoe ])
   end  
+
+  get "/shoes-cart" do
+    a = Purchase.where.not(shoe_id: nil).map { |t| t.shoe}
+    a.to_json
+  end
+
+  get "/shirts-cart" do
+    a = Purchase.where.not(shirt_id: nil).map { |t| t.shirt}
+    a.to_json
+  end
+
+  get "/pants-cart" do
+    a = Purchase.where.not(pant_id: nil).map { |t| t.pant}
+    a.to_json
+  end
 
   post "/shoe-purchases" do
     purchases = Purchase.create(
@@ -52,5 +67,11 @@ class ApplicationController < Sinatra::Base
     Shirt.find_by(id: params[:shirt_id]).update(bought: a)
     Purchase.all.to_json
   end
+
+  delete '/delete-purchases/:id' do
+    purchase = Purchase.find(params[:id])
+    purchase.destroy
+    purchase.to_json
+  end 
 
 end
