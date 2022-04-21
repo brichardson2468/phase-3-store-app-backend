@@ -74,4 +74,8 @@ class ApplicationController < Sinatra::Base
     purchase.to_json
   end 
 
+  delete '/delete-all' do
+    purchase = Purchase.deleteTable
+    purchase.to_json
+  end
 end
